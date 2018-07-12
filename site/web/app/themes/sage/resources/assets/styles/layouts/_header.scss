@@ -1,0 +1,59 @@
+.flavors {
+  margin-top: 1rem;
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      color: blue;
+    }
+  }
+
+  .disabled {
+    color: grey;
+  }
+}
+
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+
+  color: black;
+}
+
+.nav-primary {
+  display: none;
+}
+
+.banner {
+  // background-color: grey;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.brand {
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    text-decoration: none;
+    color: blue;
+  }
+}
+
+#brand {
+  z-index: 99;
+}
+
+.about-button {
+  // display: none;
+  position: absolute;
+  margin-left: -6rem;
+  z-index: -1;
+  opacity: 0;
+}
